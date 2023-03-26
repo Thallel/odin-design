@@ -1,12 +1,23 @@
+/* General */
+
 /* Body */
+
 body{
   background: #1F2937;
   padding-left: 350px;
   padding-right: 350px;
-  margin-top: 20px;
+  margin-top: 20px;  
   font-family: 'Roboto', sans-serif;
 }
 
+/* Spacer */
+
+.spacer {
+  height: 150px;
+}
+
+
+/* Specifics */
 
 /* Header */
 
@@ -26,7 +37,7 @@ header{
 
 /* Navigation */
 
-.nav-container {
+.nav-container{
   float: right;
   display: flex;
   font-size: 18px;
@@ -34,6 +45,46 @@ header{
   align-items: center;
   justify-content: flex-end;    
 }
+
+
+/* Hero */
+
+.hero-container{
+  clear: both;  
+  display: flex;
+  color: #F9FAF8;  
+  gap: 100px;
+}
+
+.hero-left-container .one{
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 415px;  
+}
+
+.hero-left-container .two{
+  max-width: 415px;  
+}
+
+.hero-left-container .three{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #3882F6;
+  font-weight: 800;    
+  border-radius: 5px;
+}
+
+.hero-right-container{  
+  display: flex;
+  align-items: center;  
+  padding: 110px 110px;
+  font-size: larger;    
+  white-space: nowrap;
+  background-color: #6c747d;   
+  border-radius: 0px;
+}
+
 
 
 
