@@ -1,0 +1,41 @@
+/* Body */
+body{
+  background: #1F2937;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+
+header{    
+  color: #F9FAF8;  
+}
+
+
+/* Logo */
+
+.logo{
+  float: left;  
+  font-size: 24px;
+  font-weight: 800;  
+}
+
+
+/* Navigation */
+
+.nav-container {
+  float: right;
+  display: flex;
+  font-size: 18px;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-end;    
+}
+
+
+
+
+
